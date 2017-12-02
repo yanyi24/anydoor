@@ -1,0 +1,30 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "a node server",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "esliint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanyi24/anydoor.git"
+  },
+  "keywords": [],
+  "author": "yanyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanyi24/anydoor/issues"
+  },
+  "homepage": "https://github.com/yanyi24/anydoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.12.1",
+    "pre-commit": "^1.2.2"
+  }
+}
